@@ -1,14 +1,14 @@
 # 1) Executive Summary
 
 ## Problem:
-Coaches and analysts in competitive Wushu often lack a simple way to explore athlete performance data. Accessing structured information—such as scoring distributions, top-performing countries, and event breakdowns—typically require full database setups.
+Coaches and analysts in competitive Wushu often lack a simple way to explore athlete performance data. Accessing structured information such as scoring distributions, top-performing countries, and event breakdowns—typically require full database setups.
 
 ## Solution:
 This project provides a lightweight, containerized analytics API built using Flask, SQLite, and Docker. The system automatically loads the IWUF WWC17 competition dataset from CSV, creates a SQL database, and exposes two clean API endpoints for quick data exploration:
 
-/athletes — browse athlete rows
+/athletes - browse athlete rows
 
-/summary — view computed statistics (averages, top countries, total athletes)
+/summary - view computed statistics (averages, top countries, total athletes)
 
 The entire system runs from a single Docker command, ensuring portability and reproducibility.
 
@@ -117,7 +117,7 @@ API is stateless; rebuilding docker image resets DB
 Extremely small resource footprint (<50MB image)
 
 # 5) Results & Evaluation
-## Sample Output — /athletes
+## Sample Output - /athletes
 [
   {
     "Name": "Zhizhao Chang",
@@ -140,7 +140,7 @@ Extremely small resource footprint (<50MB image)
   }
 ]
 
-## Sample Output — /summary
+## Sample Output - /summary
 {
   "total_athletes": 216,
   "average_scores": {
