@@ -1,7 +1,7 @@
 # 1) Executive Summary
 
 ## Problem:
-Coaches and analysts in competitive Wushu often lack a simple way to explore athlete performance data. Accessing structured information such as scoring distributions, top-performing countries, and event breakdowns—typically require full database setups.
+Coaches and analysts in competitive Wushu often lack a simple way to explore athlete performance data. Accessing structured information such as scoring distributions, top-performing countries, and event breakdowns typically require full database setups.
 
 ## Solution:
 This project provides a lightweight, containerized analytics API built using Flask, SQLite, and Docker. The system automatically loads the IWUF WWC17 competition dataset from CSV, creates a SQL database, and exposes two clean API endpoints for quick data exploration:
