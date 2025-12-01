@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# DS2022-Final-Case
-=======
 # 1) Executive Summary
 
 ## Problem:
@@ -39,7 +36,7 @@ Rows: 216 athletes
 
 Columns include: Name, Country, Overall Score, A/B/C Scores, Event, Gender, Region
 
-License: Provided by instructor for coursework
+License: MIT License
 
 ### Tech Stack:
 
@@ -180,5 +177,14 @@ Add /country/<name> breakdowns
 # 7) Links (Required)
 
 GitHub Repo: https://github.com/derekwang8/DS2022-Final-Case
-Public Cloud URL (optional): [if deployed]
->>>>>>> cbb4d07 (Initial project setup)
+Public Cloud URL (optional): https://wushu-api.onrender.com
+## Available API endpoints:
+
+### Health Check
+https://wushu-api.onrender.com/health
+
+### Summary Statistics
+https://wushu-api.onrender.com/summary
+
+### Athlete List
+https://wushu-api.onrender.com/athletes
