@@ -25,8 +25,11 @@ Containerization with Docker
 
 Reproducible environment & deployment
 
-## Data / Models / Services
+## Architecture Diagram
 
+![Architecture Diagram](architecture.png)
+
+## Data / Models / Services
 
 ### Dataset:
 
