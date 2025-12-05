@@ -27,7 +27,7 @@ Reproducible environment & deployment
 
 ## Architecture Diagram
 
-![Architecture Diagram](architecture.png)
+![Architecture Diagram](assets/architecture.png)
 
 ## Data / Models / Services
 
